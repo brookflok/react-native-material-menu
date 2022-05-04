@@ -42,7 +42,6 @@ export function MenuItem({
     >
       <View style={[styles.container, style]}>
         <Text
-          numberOfLines={1}
           style={[styles.title, disabled && { color: disabledTextColor }, textStyle]}
         >
           {children}
@@ -54,7 +53,6 @@ export function MenuItem({
 
 const styles = StyleSheet.create({
   container: {
-    height: 48,
     justifyContent: 'center',
     maxWidth: 248,
     minWidth: 124,
