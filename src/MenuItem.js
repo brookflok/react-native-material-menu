@@ -39,7 +39,6 @@ function MenuItem({
       <View style={[styles.container, style]}>
         <Text
           ellipsizeMode={ellipsizeMode}
-          numberOfLines={1}
           style={[
             styles.title,
             disabled && { color: disabledTextColor },
@@ -62,7 +61,6 @@ MenuItem.defaultProps = {
 
 const styles = StyleSheet.create({
   container: {
-    height: 48,
     justifyContent: 'center',
     maxWidth: 248,
     minWidth: 124,
