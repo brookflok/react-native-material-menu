@@ -61,8 +61,8 @@ MenuItem.defaultProps = {
 
 const styles = StyleSheet.create({
   container: {
-    paddingTop:8,
-    minHeight:48,
+    paddingVertical:6,
+    minHeight:30,
     justifyContent: 'center',
     minWidth: 124,
   },
